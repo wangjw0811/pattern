@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.pattern.factory.factoryMethod.ICarFactory</OriginalElement>
+  <nodes>
+    <node x="178.0895833333334" y="0.0">com.pattern.factory.ICar</node>
+    <node x="341.2770833333333" y="206.0">com.pattern.factory.factoryMethod.BwmCarFactory</node>
+    <node x="66.0895833333334" y="206.0">com.pattern.factory.factoryMethod.BenzCarFactory</node>
+    <node x="175.0" y="103.0">com.pattern.factory.factoryMethod.ICarFactory</node>
+    <node x="355.0" y="103.0">com.pattern.factory.BwmCar</node>
+    <node x="0.0" y="103.0">com.pattern.factory.BenzCar</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.pattern.factory.factoryMethod.BenzCarFactory" target="com.pattern.factory.ICar">
+      <point x="0.0" y="-26.5" />
+      <point x="146.0895833333334" y="181.0" />
+      <point x="164.5" y="181.0" />
+      <point x="164.5" y="83.0" />
+      <point x="224.28958333333338" y="83.0" />
+      <point x="-30.80000000000001" y="26.5" />
+    </edge>
+    <edge source="com.pattern.factory.factoryMethod.BwmCarFactory" target="com.pattern.factory.ICar">
+      <point x="53.33333333333334" y="-26.5" />
+      <point x="474.61041666666665" y="181.0" />
+      <point x="519.5" y="181.0" />
+      <point x="519.5" y="73.0" />
+      <point x="316.6895833333334" y="73.0" />
+      <point x="61.60000000000002" y="26.5" />
+    </edge>
+    <edge source="com.pattern.factory.factoryMethod.BwmCarFactory" target="com.pattern.factory.factoryMethod.ICarFactory">
+      <point x="-53.33333333333334" y="-26.5" />
+      <point x="367.94374999999997" y="181.0" />
+      <point x="295.0" y="181.0" />
+      <point x="40.00000000000003" y="26.5" />
+    </edge>
+    <edge source="com.pattern.factory.factoryMethod.ICarFactory" target="com.pattern.factory.ICar">
+      <point x="2.8421709430404007E-14" y="-26.5" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="com.pattern.factory.factoryMethod.BwmCarFactory" target="com.pattern.factory.BwmCar">
+      <point x="0.0" y="-26.5" />
+      <point x="421.2770833333333" y="181.0" />
+      <point x="432.0" y="181.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="com.pattern.factory.factoryMethod.BenzCarFactory" target="com.pattern.factory.factoryMethod.ICarFactory">
+      <point x="53.333333333333314" y="-26.5" />
+      <point x="199.4229166666667" y="181.0" />
+      <point x="215.0" y="181.0" />
+      <point x="-40.0" y="26.5" />
+    </edge>
+    <edge source="com.pattern.factory.BenzCar" target="com.pattern.factory.ICar">
+      <point x="0.0" y="-26.5" />
+      <point x="77.0" y="73.0" />
+      <point x="193.48958333333337" y="73.0" />
+      <point x="-61.599999999999994" y="26.5" />
+    </edge>
+    <edge source="com.pattern.factory.BwmCar" target="com.pattern.factory.ICar">
+      <point x="0.0" y="-26.5" />
+      <point x="432.0" y="83.0" />
+      <point x="285.8895833333334" y="83.0" />
+      <point x="30.80000000000001" y="26.5" />
+    </edge>
+    <edge source="com.pattern.factory.factoryMethod.BenzCarFactory" target="com.pattern.factory.BenzCar">
+      <point x="-53.33333333333337" y="-26.5" />
+      <point x="92.75625000000002" y="181.0" />
+      <point x="77.0" y="181.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="-24.0" y="33.0" />
+  <SelectedNodes>
+    <node>com.pattern.factory.factoryMethod.BenzCarFactory</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
